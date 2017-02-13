@@ -27,7 +27,7 @@ export const flipSelection = generate('flip')
 /**
  * Move the selection to the end of the next block.
  *
- * @param {Transform} tansform
+ * @param {Transform} transform
  */
 
 export function collapseToEndOfNextBlock(transform) {
@@ -45,7 +45,7 @@ export function collapseToEndOfNextBlock(transform) {
 /**
  * Move the selection to the end of the next text.
  *
- * @param {Transform} tansform
+ * @param {Transform} transform
  */
 
 export function collapseToEndOfNextText(transform) {
@@ -63,7 +63,7 @@ export function collapseToEndOfNextText(transform) {
 /**
  * Move the selection to the end of the previous block.
  *
- * @param {Transform} tansform
+ * @param {Transform} transform
  */
 
 export function collapseToEndOfPreviousBlock(transform) {
@@ -81,7 +81,7 @@ export function collapseToEndOfPreviousBlock(transform) {
 /**
  * Move the selection to the end of the previous text.
  *
- * @param {Transform} tansform
+ * @param {Transform} transform
  */
 
 export function collapseToEndOfPreviousText(transform) {
@@ -99,7 +99,7 @@ export function collapseToEndOfPreviousText(transform) {
 /**
  * Move the selection to the start of the next block.
  *
- * @param {Transform} tansform
+ * @param {Transform} transform
  */
 
 export function collapseToStartOfNextBlock(transform) {
@@ -117,7 +117,7 @@ export function collapseToStartOfNextBlock(transform) {
 /**
  * Move the selection to the start of the next text.
  *
- * @param {Transform} tansform
+ * @param {Transform} transform
  */
 
 export function collapseToStartOfNextText(transform) {
@@ -135,7 +135,7 @@ export function collapseToStartOfNextText(transform) {
 /**
  * Move the selection to the start of the previous block.
  *
- * @param {Transform} tansform
+ * @param {Transform} transform
  */
 
 export function collapseToStartOfPreviousBlock(transform) {
@@ -153,7 +153,7 @@ export function collapseToStartOfPreviousBlock(transform) {
 /**
  * Move the selection to the start of the previous text.
  *
- * @param {Transform} tansform
+ * @param {Transform} transform
  */
 
 export function collapseToStartOfPreviousText(transform) {
